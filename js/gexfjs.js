@@ -696,7 +696,7 @@
                     $(_nodes).each(function () {
                         var _n = $(this),
                             _id = _n.attr("id"),
-                            _label = _n.attr("label") || _id,
+                            _label = _n.attr("label") || ' ',
                             _pos = _n.find("viz\\:position,position"),
                             _d = {
                                 id: _id,
